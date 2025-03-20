@@ -1,0 +1,13 @@
+@use "tailwindcss";
+
+$layout-color: rgba(68, 94, 189, 1);
+$main-color: rgba(239, 239, 239, 1);
+$layout-height: 80px;
+
+@mixin layout-skelet {
+    background-color: $layout-color;
+}
+
+.header {
+    @apply h-20;
+}
